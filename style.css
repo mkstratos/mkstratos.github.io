@@ -132,7 +132,7 @@ a:hover {
 }
 .con-head:hover{text-decoration:none;}
 .con-text{
-    size:1em;
+    font-size:1em;
 	margin:1em;
 	text-indent:1em;
 	padding-left:5%;
