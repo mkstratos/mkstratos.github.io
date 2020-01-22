@@ -110,17 +110,29 @@ a:hover {
 	text-align: left;
 }
 		
+/* Things used to change on hover
 .content-column:hover {
 	background-color:#fff;
 	border: 0px solid #000;
 	-moz-border-radius: 30px;
 	-webkit-border-radius: 30px;
 	border-radius: 30px;
-}
+}*/
 
 
 .ccl{float:left;}
 .ccr{float:right;}
+
+/* Adjust style for mobile (narrow width) */
+@media all and (max-width: 600px){
+    .content-column{
+        width: 98%;
+    }
+    .ccr{
+        float: left;
+    }
+}
+
 .pad{margin-right:10%;}
 .con-head{
     font-size: large;
